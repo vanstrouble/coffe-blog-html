@@ -1,0 +1,66 @@
+:root {
+    --HeadeingFont: 'PT Sans', sans-serif;
+    --ParaFont: 'Open Sans', sans-serif;
+
+    --primary: #784d3c;
+    --white: #ffffff;
+    --black: #000000;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body {
+    font-family: var(--ParaFont);
+    font-size: 1.6rem;
+    line-height: 2;
+    color: var(--black);
+    background-color: var(--white);
+}
+
+/* Globals */
+.container {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+a {
+    text-decoration: none;
+    color: var(--primary);
+}
+h1, h2, h3, h4 {
+    font-family: var(--HeadeingFont);
+    margin: 2rem 0;
+}
+h1 {
+    font-size: 4.8rem;
+}
+h2 {
+    font-size: 4rem;
+}
+h3 {
+    font-size: 3.2rem;
+}
+h4 {
+    font-size: 2.8rem;
+}
+img {
+    max-width: 100%;
+}
+
+/* Utilities */
+.no-margin {
+    margin: 0;
+}
+.no-padding {
+    padding: 0;
+}
+.text-center {
+    text-align: center;
+}
