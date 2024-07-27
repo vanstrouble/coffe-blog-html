@@ -137,3 +137,11 @@ img {
     font-size: 1.8rem;
     color: var(--white);
 }
+
+@media (min-width: 768px) {
+    .main-content {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 4rem;
+    }
+}
