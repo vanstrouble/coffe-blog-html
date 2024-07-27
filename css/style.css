@@ -3,6 +3,7 @@
     --ParaFont: 'Open Sans', sans-serif;
 
     --primary: #784d3c;
+    --gray: #e1e1e1;
     --white: #ffffff;
     --black: #000000;
 }
@@ -144,4 +145,38 @@ img {
         grid-template-columns: 2fr 1fr;
         gap: 4rem;
     }
+}
+
+.entry {
+    border-bottom: 5px solid var(--gray);
+    margin-bottom: 2rem;
+}
+
+.entru:last-of-type {
+    margin-bottom: 0;
+    border: none;
+}
+
+.button {
+    display: block;
+    font-family: var(--HeadeingFont);
+    color: var(--white);
+    padding: 1rem 2rem;
+    text-align: center;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .button {
+        display: inline-block;
+    }
+
+}
+
+.primary--button {
+    background-color: var(--black);
 }
