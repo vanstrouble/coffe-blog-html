@@ -222,3 +222,12 @@ img {
     padding-bottom: 3rem;
     margin-top: 4rem;
 }
+
+/* About us */
+@media (min-width: 768px) {
+    .about-us {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+}
