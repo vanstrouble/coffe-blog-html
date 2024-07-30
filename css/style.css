@@ -31,8 +31,7 @@ body {
 
 /* Globals */
 .container {
-    max-width: 120rem;
-    width: 90%;
+    width: min(90%, 120rem);
     margin: 0 auto;
     padding: 0 2rem;
 }
@@ -106,6 +105,10 @@ img {
     }
 }
 
+.top-bar {
+    padding-top: 4rem;
+}
+
 @media (min-width: 768px) {
     .top-bar {
         display: flex;
@@ -153,7 +156,7 @@ img {
     margin-bottom: 2rem;
 }
 
-.entru:last-of-type {
+.entry:last-of-type {
     margin-bottom: 0;
     border: none;
 }
@@ -212,4 +215,10 @@ img {
 .widget-course__label,
 .widget-course__info {
     font-size: 2rem;
+}
+
+.footer {
+    background-color: var(--black);
+    padding-bottom: 3rem;
+    margin-top: 4rem;
 }
