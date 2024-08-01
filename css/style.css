@@ -171,6 +171,7 @@ img {
     font-weight: bold;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    border: none;
 }
 
 @media (min-width: 768px) {
@@ -178,6 +179,10 @@ img {
         display: inline-block;
     }
 
+}
+
+.button:hover {
+    cursor: pointer;
 }
 
 .primary--button {
@@ -260,4 +265,32 @@ img {
     height: 40rem;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.form {
+    background-color: var(--white);
+    margin: -5rem auto 0 auto;
+    width: 95%;
+    padding: 5rem;
+}
+
+.form__field {
+    display: flex;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+.field__label {
+    flex: 0 0 9rem;
+    text-align: right;
+}
+
+.field__input {
+    flex: 1;
+    border: 1px solid var(--gray);
+    padding: 1rem;
+}
+
+.field__input--textarea {
+    height: 20rem;
 }
