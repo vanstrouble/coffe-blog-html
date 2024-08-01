@@ -253,3 +253,11 @@ img {
 .course:last-of-type {
     border: none;
 }
+
+/* Contact */
+.contact__bg {
+    background-image: url(../img/contact.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
